@@ -2,8 +2,9 @@ import React from 'react';
 
 const MainProjects = () => {
   return (
-    <div>
-      <h2>Main Header component</h2>
+    <div className='work'>
+      <img src='./img/iphone-notebook-pen-working-34578.jpg' alt='' />
+      <img src='./img/vw-bully-1868890_1920.jpg' alt='' />
     </div>
   );
 };
