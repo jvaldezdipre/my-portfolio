@@ -4,7 +4,7 @@ import OtherProjects from './OtherProjects';
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className='main-content'>
       <header>
         <h1>Jeffrey Valdez</h1>
         <h3>Full Stack Web Developer</h3>

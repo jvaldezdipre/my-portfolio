@@ -61,3 +61,21 @@ footer p {
   color: gray;
   margin: 60px auto;
 }
+
+.main-content {
+  max-width: 1000px;
+  margin: auto;
+}
+.other-project-container {
+  padding-bottom: 40px;
+}
+
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 35vh;
+}
