@@ -24,7 +24,7 @@ const ProjectsPage = () => {
       <header className='header-container'>
         <div className='title-container'>
           <h1>I'm Jeff Valdez</h1>
-          <h3>A Full Stack Web Developer</h3>
+          <h3>Full Stack Web Developer</h3>
           <div className='arrow-button'>
             <Link to='main-content' smooth duration={800}>
               <IconButton

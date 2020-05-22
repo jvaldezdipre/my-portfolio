@@ -120,3 +120,17 @@ footer p {
   width: 100%;
   /* height: 50vh; */
 }
+
+@media (max-width: 500px) {
+  header {
+    height: 100vh;
+  }
+
+  .title-container {
+    margin-top: 150px;
+  }
+
+  .arrow-button {
+    padding-top: 125px;
+  }
+}
