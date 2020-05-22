@@ -25,6 +25,14 @@ const ProjectsPage = () => {
         <div className='title-container'>
           <h1>I'm Jeff Valdez</h1>
           <h3>Full Stack Web Developer</h3>
+          <div className='skills-container'>
+            <img className='skills-img' src='./html5.png' alt='' />
+            <img className='skills-img' src='./css3.png' alt='' />
+            <img className='skills-img' src='./javascript.png' alt='' />
+            <img className='skills-img' src='./logo192.png' alt='' />
+            <img className='skills-img' src='./redux.png' alt='' />
+            <img className='skills-img' src='./csharp.png' alt='' />
+          </div>
           <div className='arrow-button'>
             <Link to='main-content' smooth duration={800}>
               <IconButton
