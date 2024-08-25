@@ -1,141 +1,42 @@
-.App {
+#root {
+  max-width: 1280px;
   margin: 0 auto;
-}
-
-h1 {
-  color: #fff;
-  font-size: 48px;
-}
-
-h3 {
-  color: #fff;
-  font-size: 25px;
-}
-
-p {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-/* NavBar */
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo-container {
-  margin: 10px 0px 0px 20px;
-}
-
-.logo-container img {
-  width: 75px;
-  height: 75px;
-}
-
-.links-container {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.links-container a {
-  margin: 10px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 23.5px;
-}
-
-/* Header */
-header {
-  height: 100vh;
-}
-
-.title-container {
-  margin-top: 8.5%;
+  padding: 2rem;
   text-align: center;
 }
 
-.title-container h1 {
-  font-size: 70px;
-  font-weight: 400;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.arrow-button {
-  padding-top: 8%;
-}
-
-.skills-img {
-  margin: 0px 20px 0px 20px;
-  width: 50px;
-  height: 50px;
-}
-
-header h3 {
-  padding-bottom: 100px;
-}
-
-.work {
-  width: 100%;
-  text-align: center;
-}
-
-.work img {
-  margin: 1%;
-  width: 94%;
-}
-
-.header2 {
-  margin: 130px 0 80px 40px;
-}
-
-.work2 {
-  text-align: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.work2 img {
-  margin: 1%;
-  width: 45%;
-}
-
-footer p {
-  text-align: center;
-  color: gray;
-  margin: 60px auto;
-}
-
-.main-content {
-  max-width: 1500px;
-  margin: auto;
-}
-.other-project-container {
-  padding-bottom: 40px;
-}
-
-.carousel-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.carousel-container img {
-  width: 100%;
-  /* height: 50vh; */
-}
-
-@media (max-width: 500px) {
-  header {
-    height: 100vh;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-
-  .title-container {
-    margin-top: 150px;
+  to {
+    transform: rotate(360deg);
   }
+}
 
-  .arrow-button {
-    padding-top: 125px;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
   }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
