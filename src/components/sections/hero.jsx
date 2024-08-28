@@ -20,12 +20,10 @@ const Hero = () => {
                         <SlideUp>
                             <div className="about-image-part">
                                 <img src={profile} alt="About Me" />
-                                <h2>Bentos Walker</h2>
-                                <p>I am a Web Designer based in san francisco.</p>
+                                <h2>Jeffrey Valdez</h2>
+                                <p>I am a Full Stack Web Developer based in Columbia SC.</p>
                                 <div className="about-social text-center">
                                     <ul>
-                                        <li><Link to=""><RiFacebookCircleFill size={20} /></Link></li>
-                                        <li><Link to=""><RiTwitterXLine size={20} /></Link></li>
                                         <li><Link to=""><RiLinkedinFill size={20} /></Link></li>
                                         <li><Link to=""><RiGithubLine size={20} /></Link></li>
                                     </ul>
@@ -40,21 +38,21 @@ const Hero = () => {
                             <div className="about-content-part">
                                 <p>Hello There!</p>
                                 <h2>
-                                    I’m Bentos Walker, a product designer crafting user-centric design with pixel-perfect precision.
+                                I'm Jeffrey Valdez, a full-stack developer creating robust, user-centered applications with an eye for detail and efficiency.
                                 </h2>
                                 <div className="adress-field">
                                     <ul>
-                                        <li className='d-flex align-items-center'><i><RiCircleFill size={14} /></i> Available for Freelancing</li>
+                                        <li className='d-flex align-items-center'><i><RiCircleFill size={14} /></i> Available for Employment</li>
                                     </ul>
                                 </div>
                                 <div className="hero-btns">
-                                    <Link to="/contact" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i> </Link>
+                                    <Link to="/contact" className="theme-btn">Contact me <i></i></Link>
                                 </div>
                             </div>
                         </SlideUp>
                         <SlideUp>
                             <div className="about-content-part-bottom">
-                                <h2>Company I Worked With</h2>
+                                <h2>Languages and Framworks I Worked With</h2>
                                 <div className="company-list">
                                     <div className="scroller">
                                         <div className="scroller__inner">

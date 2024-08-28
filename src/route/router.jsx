@@ -26,6 +26,7 @@ export const router = createBrowserRouter([
                 element: <About />
             },
             {
+                //remove link -- white board
                 path: "/service",
                 element: <Service />
             },
